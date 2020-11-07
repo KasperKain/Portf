@@ -5,8 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kain</title>
-  <link rel="stylesheet" href="base.css" />
-  <link rel="stylesheet" href="about.css" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/card.css" />
+  <link rel="stylesheet" href="styles/content.css" />
 
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
 </head>
@@ -15,44 +16,137 @@
 
   <!-- Heres where everything starts-->
   <div id="main-window">
-    <div id="about">
+    <div id="card">
       <main>
-        <div id="profile-card">
-          <img src="profile-icon.png" alt="" />
-          <h1>KASPER KAIN</h1>
-          <div id="text-box">
-            <h2>I will update this information later</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores neque eligendi in animi eos omnis
-              dolorum impedit voluptas tempora placeat qui repellendus, doloremque illum iure possimus voluptatem
-              deserunt. Quaerat qui quis voluptate
-            </p>
+
+        <section id="summary">
+          <div id="cards">
+            <div class="profile-card">
+              <img src="images/profile_icon_1.png" alt="" />
+              <h1>DEVELOPER</h1>
+            </div>
+
+            <div class="profile-card">
+              <img src="images/profile_icon_2.png" alt="" />
+              <h1>DESIGNER</h1>
+            </div>
+
+            <div class="profile-card">
+              <img src="images/profile_icon_3.png" alt="" />
+              <h1>CREATOR</h1>
+            </div>
           </div>
-        </div>
+
+          <p>EMAIL: kasperkain@gmail.com</p>
+        </section>
+
+        <section id="about">
+          <h1>A LITTLE ABOUT MYSELF</h2>
+            <br>
+            <p>Greetings! My name is Kasper Kain. I'm a mobile/web/game devloper based in Orlando FL.
+              I'm also a student at thinkful (Hello fellow students who may be reading this!).
+            </p>
+            <br>
+            <p> I WILL UPDATE THE REST OF THIS INFORMATION LATER - Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit.
+              Et, exercitationem. Harum totam consectetur,
+              culpa doloribus omnis nobis iusto rerum magni alias ducimus quam expedita error corporis soluta deserunt
+              veritatis eligendi ipsum eaque laborum quisquam. Numquam, aliquid atque? Error quod placeat repellat, sit
+              quisquam esse ad assumenda veniam omnis vitae expedita ut, provident adipisci qui aperiam, minus quidem?
+              Fugit commodi ab ducimus nemo
+            </p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus minus iste voluptates sed nisi
+              pariatur vel beatae eveniet error magni molestiae ex saepe officiis quae quam, qui est tempore consectetur
+              nihil exercitationem itaque quibusdam?</p>
+        </section>
+
+        <section id="links">
+          <h1>Links to other sites i'm on</h1>
+          <p>Text in grey means link isn't set up yet</p>
+          <ul>
+            <li><a href="https://github.com/KasperKain" target="_blank">GITHUB</a></li>
+            <li><a href="https://www.linkedin.com/in/kasper-kain-0611b51b9/" target="_blank">LINKEDIN</a></li>
+            <li><a href="https://kasper-kain.itch.io/" target="_blank">ITCH.IO</a></li>
+            <li><a href="#" class="no-link">NEWGROUNDS</a></li>
+            <li><a href="#" class="no-link">DEVIANTART</a></li>
+            <li><a href="#" class="no-link">CODEPEN</a></li>
+            <li><a href="#" class="no-link">TWITTER</a></li>
+            <li><a href="#" class="no-link">FACEBOOK</a></li>
+          </ul>
+        </section>
+
+        <section id="showcase-1">
+          <h2>UNREASED GAME PROTOTYPES</h2>
+          <p>Just a random set of gifs showcasing some of the games I have worked on. None of these have been
+            released and live exclusively on my hard drive. Clicking the gifs will do nothing.
+          </p>
+          <div id="game_showcase">
+            <img src="previews/GamePlay1.gif" />
+            <img src="previews/GamePlay2.gif" />
+            <img src="previews/GamePlay3.gif" />
+            <img src="previews/GamePlay4.gif" />
+          </div>
+        </section>
+
+        <section id="showcase-2">
+          <h2> PIXEL ART</h2>
+          <p>Art is something i've always been Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            necessitatibus nobis dolorem dolor sunt! Provident alias molestiae culpa delectus animi!</p>
+          <img src="images/pixel-banner.jpg" />
+        </section>
+
+        <section id="showcase-3">
+          <h2> RANDOM PIXEL ICONS AND SPRITES</h2>
+          <div id="art-container-2">
+            <div id="small-art-showcase">
+              <img src="images/art_1.png" />
+              <img src="images/art_2.png" />
+              <img src="images/art_3.png" />
+              <img src="images/art_4.png" />
+              <img src="images/art_5.png" />
+              <img src="images/art_6.png" />
+              <img src="images/art_7.png" />
+              <img src="images/art_8.png" />
+              <img src="images/art_10.png" />
+              <img src="images/art_11.png" />
+              <img src="images/art_12.png" />
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h2>Reach out to me</h2>
+          <p>Currently, The only way to reach me is via email. So incase you missed it on the landing page, Here you go
+            -</p>
+          <p>Email: kasperkain@gmail.com</p>
+        </section>
+
       </main>
 
       <aside>
-        <ol>
-          <li><a href="https://github.com/KasperKain" target="_blank">GITHUB</a></li>
-          <li><a href="https://www.linkedin.com/in/kasper-kain-0611b51b9/https://github.com/KasperKain"
-              target="_blank">LINKEDIN</a></li>
-          <li><a href="https://kasper-kain.itch.io" target="_blank">ITCH.IO</a></li>
-        </ol>
+        <button class="section-button">LANDING</button>
+        <button class="section-button">ABOUT</button>
+        <button class="section-button">LINKS</button>
+        <button class="section-button">SHOWCASE 1</button>
+        <button class="section-button">SHOWCASE 2</button>
+        <button class="section-button">SHOWCASE 3</button>
+        <button class="section-button">CONTACT</button>
       </aside>
 
       <footer>
-        <nav>
-          <ul>
-            <li>C#</li>
-            <li>JAVA</li>
-            <li>HTML/CSS</li>
-            <li>JAVASCRIPT</li>
-            <li>UNITY</li>
-            <li>GODOT</li>
-            <li>PHOTOSHOP</li>
-            <li>BLENDER</li>
+        <ul>
+          <li>C#</li>
+          <li>JAVA</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JAVASCRIPT</li>
+          <li>UNITY</li>
+          <li>GODOT</li>
+          <li>PHOTOSHOP</li>
+          <li>BLENDER</li>
 
-          </ul>
-        </nav>
+        </ul>
       </footer>
 
 
@@ -64,6 +158,8 @@
   </div>
 
   <!-- Heres where everything ends...-->
+
+  <script src="script.js"></script>
 </body>
 
 </html>
