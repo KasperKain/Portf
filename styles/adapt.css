@@ -1,0 +1,86 @@
+@media only screen and (max-width: 900px) {
+  * {
+    min-width: 20%;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 14px;
+  }
+
+  p,
+  button {
+    font-size: 11px;
+  }
+
+  section {
+    display: flex;
+  }
+
+  #card {
+    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    overflow-y: auto;
+  }
+
+  footer {
+    display: none;
+  }
+
+  aside {
+    grid-row: 1/1;
+    flex-direction: row;
+
+    width: 90%;
+    justify-self: center;
+    overflow-x: auto;
+    justify-content: start;
+  }
+
+  aside button {
+    width: 10px;
+    background-color: black;
+    margin: 0 10px;
+  }
+
+  main {
+    grid-row: 2/4;
+  }
+
+  #links ul {
+    margin-top: 30px;
+    overflow-y: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  #cards :nth-child(2),
+  #cards :nth-child(3) {
+    display: none;
+  }
+
+  #game_showcase {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #game_showcase img {
+    width: 80%;
+  }
+
+  #small-art-showcase {
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    align-items: center;
+  }
+
+  #small-art-showcase img {
+    width: 70%;
+  }
+}

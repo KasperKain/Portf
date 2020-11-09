@@ -25,4 +25,3 @@ function display_section(index) {
   sections[index].style.display = 'flex';
   section_buttons[index].classList.add("selected");
 }
-
