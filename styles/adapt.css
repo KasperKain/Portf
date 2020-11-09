@@ -42,9 +42,11 @@
   }
 
   aside button {
-    width: 10px;
+    min-width: 5rem;
     background-color: black;
-    margin: 0 10px;
+    margin: 0 12px;
+    padding: 0 10px;
+    line-height: 1.1rem;
   }
 
   main {
@@ -75,6 +77,10 @@
     width: 80%;
   }
 
+  #art-container-2 {
+    width: 80%;
+  }
+
   #small-art-showcase {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -83,6 +89,7 @@
   }
 
   #small-art-showcase img {
-    width: 70%;
+    width: 80%;
+    padding: 10px;
   }
 }
